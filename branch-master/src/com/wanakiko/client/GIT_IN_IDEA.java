@@ -13,5 +13,6 @@ public class GIT_IN_IDEA {
     public static void main(String[] args) {
         System.out.println(UUID.randomUUID().toString().toUpperCase());
         System.out.println(ThreadLocalRandom.current().nextInt(99) + 1);
+        System.out.println("红色表示未追踪，绿色表示已追踪，黑色表示已提交，蓝色表示已提交且出现新的修改");
     }
 }
