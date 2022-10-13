@@ -11,8 +11,8 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class GIT_IN_IDEA {
     public static void main(String[] args) {
-        System.out.println(UUID.randomUUID().toString().toUpperCase());
-        System.out.println(ThreadLocalRandom.current().nextInt(99) + 1);
+        System.out.println("UUID：[ " + UUID.randomUUID().toString().toUpperCase() + " ]");
+        System.out.println("本轮随机数：" + ThreadLocalRandom.current().nextInt(99) + 1);
         System.out.println("红色表示未追踪，绿色表示已追踪，黑色表示已提交，蓝色表示已提交且出现新的修改");
         System.out.println("DEVELOP：鼠标右键选择Git，然后点击New Branch填写分支名称即可创建新的分支。");
         System.out.println("MASTER：master分支与develop分支的同一个位置出现不同的修改。");
